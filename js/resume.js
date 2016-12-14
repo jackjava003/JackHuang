@@ -10,19 +10,6 @@ function doFirst() {
 	var qutCerti = document.getElementById('qutCerti');
 	var img2 = document.getElementById('myImg2');
 	var modalImg = document.getElementById("img01");
-	jQuery.ajax( { 
-		url: '//freegeoip.net/json/', 
-		type: 'POST', 
-		dataType: 'jsonp',
-		success: function(location) {
-			alert(location);
-		}
-		} );
-	
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    var fh = fso.OpenTextFile("record.txt", 8);
-    fh.WriteLine("12123");
-    fh.Close();  
 
 
 	function showImg(){
