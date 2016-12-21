@@ -1,0 +1,28 @@
+body{
+	background:#CCC;
+	font:normal 18px Tahoma, Verdana, Arial;
+}
+#theForm{
+	border:1px solid #BBB;
+	background:white;
+	width:200px;
+	padding:20px;
+	margin:20px;
+}
+fieldset div{
+	/* border:1px solid #BBB; */
+	margin:8px 0px;
+}
+input{
+	border-radius:3px;
+	font-weight:bold;
+}
+
+/* events.html */
+p{
+	font-size:12px;
+	color:steelblue;
+}
+textarea{
+	resize:none;
+}

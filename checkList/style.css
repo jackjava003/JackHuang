@@ -1,0 +1,57 @@
+body{
+	background:white;
+	font:normal 18px Tahoma, Verdana, Arial;
+}
+#theForm{
+	border:1px solid #BBB;
+	border-radius:15px;
+	background:#ffffb1;
+	width:350px;
+	padding:20px;
+	margin:20px;
+}
+fieldset div{
+	/* border:1px solid #BBB; */
+	margin:8px 0px;
+	
+}
+input{
+	border-radius:15px;
+	font-weight:bold;
+	margin-top:5px;
+	font-family:Comic Sans MS;
+}
+
+/* events.html */
+p{
+	font-size:12px;
+	color:steelblue;
+}
+textarea{
+	resize:none;
+}
+#delete{
+	border-radius:15px;
+	font-weight:bold;
+	margin-left:25px;
+	margin-top:5px;
+	font-family:Comic Sans MS;
+}
+#checkAll{
+	border-radius:15px;
+	font-weight:bold;
+	margin-left:25px;
+	margin-top:5px;
+	font-family:Comic Sans MS;
+}
+#unCheckAll{
+	border-radius:15px;
+	font-weight:bold;
+	margin-left:25px;
+	margin-top:5px;
+	font-family:Comic Sans MS;
+}
+#task{
+	width:230px;
+}
+

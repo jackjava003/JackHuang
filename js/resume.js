@@ -5,6 +5,7 @@ function doFirst() {
 	var topDiv = document.getElementById('top');
 	// Get the image and insert it inside the modal 
 	var certificate = document.getElementById('certificate');
+	var IKM = document.getElementById('IKM');
 	var ScroeReport = document.getElementById('ScroeReport');
 	var qutHonours = document.getElementById('qutHonours');
 	var qutCerti = document.getElementById('qutCerti');
@@ -20,6 +21,8 @@ function doFirst() {
 			 modalImg.src = "images/QUT_graduate.jpg"
 		}else if(this.id == "ScroeReport"){
 			 modalImg.src = "images/ScroeReport.png"
+		}else if(this.id == "IKM"){
+			modalImg.src = "images/java7.png"
 		}
 		modal.style.display = "block";
 		topDiv.style.display = "none";
@@ -29,6 +32,7 @@ function doFirst() {
 	qutCerti.onclick = showImg;
 	ScroeReport.onclick = showImg;
 	qutHonours.onclick = showImg;
+	IKM.onclick = showImg;
 
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
